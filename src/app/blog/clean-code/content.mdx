@@ -1,0 +1,60 @@
+import { BlogLayout } from "@/components/BlogLayout";
+import { CodeWindow } from "@/components/CodeWindow";
+
+export const meta = {
+  date: "2024-10-18",
+  title: "Ecstasy",
+  description:
+    "Dive into the world of 'Ecstasy,' my latest music video, blending deep rhythms and euphoric beats to create an unforgettable sonic experience.",
+  image: "/images/logos/ecstasy.jpg", // Add your video thumbnail image URL here
+  tags: ["Music", "Production", "Video"],
+};
+
+export default (props) => (
+  <BlogLayout meta={meta} {...props}>
+    <h2>What is Ecstasy?</h2>
+    <p>
+      Ecstasy is not just a track; it’s a vivid tapestry woven with lush soundscapes, dynamic drums, and an earth-shaking bass that reverberates through your soul. Each note is a brushstroke, painting the exhilaration of life and the moments that leave you breathless. The idea was to capture the essence of euphoria—the feeling of being completely alive, and I believe we achieved that beautifully.
+    </p>
+    <p>
+      My best friend, Barun Sahoo, and I took it upon ourselves to turn this dream into reality. Armed with my dad’s trusty 2016 Sony DSLR, we transformed our creative space into a makeshift studio, where every recording session was filled with laughter, spontaneity, and endless inspiration. We handled everything ourselves—from the video recording to editing and crafting the music—every step was a testament to our friendship and passion for art.
+    </p>
+
+    <h2>A Flashy and Trippy Visual Experience</h2>
+    <p>
+      The music video for Ecstasy is a whirlwind of colors and visuals that reflect the track's vibrant energy. It’s flashy, it’s trippy, and it’s a visual feast that complements the auditory experience perfectly. The editing process was a journey in itself, as we infused each frame with a sense of movement and rhythm that echoes the beat of the song.
+    </p>
+
+    <div
+      style={{
+        width: "100%",
+        maxWidth: "800px",
+        height: "0",
+        paddingBottom: "56.25%",
+        position: "relative",
+      }}
+    >
+      <iframe
+        src="https://www.youtube.com/embed/hDYM6Az4lcQ"
+        title="YouTube video"
+        allowFullScreen
+        style={{
+          position: "absolute",
+          top: "0",
+          left: "0",
+          width: "100%",
+          height: "100%",
+        }}
+      />
+    </div>
+
+    <h2>A Personal Triumph</h2>
+    <p>
+      Looking back, Ecstasy represents more than just a music track; it embodies the spirit of collaboration, creativity, and the pure joy of making art with a friend. It’s a celebration of the moments that inspire us and the power of music to connect people across distances.
+    </p>
+    <p>
+      I invite you to experience Ecstasy for yourself—let the drums move you, let the bass resonate in your bones, and let the visuals transport you to the magical realm of Sikkim. Together, Barun and I poured our hearts into this project, and we hope it ignites the same passion in you.
+    </p>
+
+  </BlogLayout>
+);

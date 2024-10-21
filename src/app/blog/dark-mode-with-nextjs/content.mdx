@@ -1,0 +1,51 @@
+import { BlogLayout } from "@/components/BlogLayout";
+import { CodeWindow } from "@/components/CodeWindow";
+
+export const meta = {
+  date: "2023-08-18",
+  title: "Live Performances @ Chennai",
+  description: "Playing live shows 🎧🎶",
+  image: "/images/logos/music production.jpg",  // Fixed the image path
+  tags: ["tailwindcss", "css", "frontend"],
+};
+
+export default function BlogPost(props) {
+  return (
+    <BlogLayout meta={meta} {...props}>
+      <p>
+        I’ve recently taken a major step in my musical journey by performing live at various gigs across Chennai. While the thought of getting on stage was once daunting, I decided to challenge myself, and over time, I've gradually gained the confidence and skill needed for live performances. It hasn’t been an overnight transformation. Each gig presents new challenges, whether it’s adjusting to the sound, engaging with the audience, or simply managing nerves, but with every show, I’ve become a little more comfortable in my own skin as a performer.
+      </p>
+
+      <div
+        style={{
+          width: "100%",
+          maxWidth: "800px",
+          height: "0",
+          paddingBottom: "56.25%",
+          position: "relative",
+        }}
+      >
+        <iframe
+          src="https://www.youtube.com/embed/L8Bjqd4cylc"
+          title="YouTube video"
+          allowFullScreen
+          style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100%",
+            height: "100%",
+          }}
+        />
+      </div>
+
+      <p>
+        What’s most rewarding is how these experiences are helping me explore and discover new aspects of my musical identity. Live performances are unpredictable, and they’ve pushed me to adapt, experiment, and evolve in ways I hadn’t anticipated. I’m constantly learning to express myself more freely, whether through my voice, guitar, or in the way I interact with the crowd. It’s almost like each gig opens up a new layer of creativity and connection to my music.
+      </p>
+
+      <p>
+        The journey is ongoing, and I still have a long way to go, but I can feel the progress. I’m becoming more attuned to what works for me on stage and what doesn’t, and I’m learning to trust my instincts more. There’s something incredibly empowering about standing in front of an audience and sharing something as personal as music, and with every performance, I’m not only improving technically but also deepening my understanding of myself as an artist. It’s been a slow, organic process, but it’s one that’s made me feel more confident in my musical abilities, and I’m excited to keep growing and exploring through future performances.
+      </p>
+    </BlogLayout>
+  );
+}
