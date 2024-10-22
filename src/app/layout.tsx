@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Rohan Singh Aswal - Student",
   description:
-    "I'm a aspiring web-developer that loves building websites and am currently exploring various fields within technology. My journey in web development began with a curiosity about how websites are made, and now I am dedicated to creating engaging and user-friendly online experiences.",
+    "I&apos;m a aspiring web-developer that loves building websites and am currently exploring various fields within technology. My journey in web development began with a curiosity about how websites are made, and now I am dedicated to creating engaging and user-friendly online experiences.",
 };
 
 export default function RootLayout({

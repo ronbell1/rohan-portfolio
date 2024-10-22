@@ -71,18 +71,19 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there! I’m Rohan – an engineering student with a curious mind,
-          constantly bridging the gap between creativity and technology. From
-          writing lines of code to mixing music tracks, I love making ideas come
-          alive. My passion for tech is matched only by my love for music.
-          Whether it’s producing beats that tell a story or editing videos that
-          capture a perfect vibe, I thrive on creating things that move people.
+          Hey there! I&apos;m Rohan – an engineering student with a curious
+          mind, constantly bridging the gap between creativity and technology.
+          From writing lines of code to mixing music tracks, I love making ideas
+          come alive. My passion for tech is matched only by my love for music.
+          Whether it&apos;s producing beats that tell a story or editing videos
+          that capture a perfect vibe, I thrive on creating things that move
+          people.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Web development is where my technical side shines. I’m always
+          Web development is where my technical side shines. I&apos;m always
           experimenting with new frameworks, building projects like weather apps
           and to-do lists, and figuring out how to make the web more intuitive
-          and exciting. I’ve also created a UNO game with a graphical user
+          and exciting. I&apos;ve also created a UNO game with a graphical user
           interface (GUI), blending code with creativity to bring a classic game
           to life.
         </Paragraph>
@@ -96,12 +97,12 @@ export default function About() {
           and creativity. Music was always in the background, a soundtrack to my
           days, and the people I looked up to pushed me to dream big. Those
           years gave me the perfect mix of peace and inspiration, laying the
-          foundation for everything I’m passionate about today.
+          foundation for everything I&apos;m passionate about today.
         </Paragraph>
         <Paragraph className=" mt-4">
-          In everything I do, I’m driven by a need to create, whether it’s
-          music, videos, or code. I'm on a journey to make my mark, one creative
-          project at a time.
+          In everything I do, I&apos;m driven by a need to create, whether
+          it&apos;s music, videos, or code. I&apos;m on a journey to make my
+          mark, one creative project at a time.
         </Paragraph>
         <Paragraph className=" mt-4">
           Through this website, I aim to share my insights, experiences, and

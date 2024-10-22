@@ -14,7 +14,7 @@ export const timeline = [
     company: "SRM Ramapuram",
     title: "Undergraduate Student",
     date: "2023 - 2027",
-    description: "Pursuing a Bachelor's degree",
+    description: "Pursuing a Bachelor&apos;s degree",
     responsibilities: [
       "Enrolled in the engineering program",
       "Engaging in various technical and extracurricular projects",
@@ -40,7 +40,7 @@ export const timeline = [
     responsibilities: [
       "Managing PR strategies and media campaigns",
       "Conducting events and outreach programs",
-      "Building the organization's brand identity",
+      "Building the organization&apos;s brand identity",
     ],
   },
 ];
