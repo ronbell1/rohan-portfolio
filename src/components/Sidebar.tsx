@@ -25,7 +25,7 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen left-0 flex flex-col justify-between"
+            className="px-6 py-10 bg-neutral-100 max-w-[12rem] sm:max-w-[14rem] w-full sm:w-[14rem] fixed lg:relative h-screen left-0 flex flex-col justify-between z-[50] lg:z-auto" // Adjusted for mobile
           >
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
@@ -38,7 +38,7 @@ export const Sidebar = () => {
         )}
       </AnimatePresence>
       <button
-        className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
+        className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-[100]" // Adjusted z-index
         onClick={() => setOpen(!open)}
       >
         <IconLayoutSidebarRightCollapse className="h-4 w-4 text-secondary" />
@@ -101,6 +101,7 @@ export const Navigation = ({
     </div>
   );
 };
+
 const SidebarHeader = () => {
   return (
     <div className="flex space-x-2 items-center">
