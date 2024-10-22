@@ -1,10 +1,10 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
+import sidefolioAceternity from "public/images/logos/first.jpg";
+import sidefolioAceternity2 from "public/images/logos/second.jpg";
+import sidefolioAlgochurn from "public/images/logos/second.jpg";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
+import sidefolioMoonbeam from "public/images/logos/third.jpg";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
+import sidefolioTailwindMasterKit from "public/images/logos/fourth.jpg";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 
 export const products = [
@@ -56,8 +56,8 @@ export const products = [
           developing a weather app. The primary goal was to create an
           interactive and functional application that provides users with
           real-time weather data based on their location or the city they input.
-          This project wasn&apos;t just about building a simple app; it was about
-          understanding how to effectively integrate external APIs, handle
+          This project wasn&apos;t just about building a simple app; it was
+          about understanding how to effectively integrate external APIs, handle
           asynchronous data, and present that information in a clean and
           user-friendly manner.{" "}
         </p>
@@ -67,14 +67,14 @@ export const products = [
           levels, wind speed, and the overall weather conditions for any
           location. Learning how to work with APIs was a major part of the
           project, as it taught me how to make requests, handle responses, and
-          manage the flow of data using JavaScript&apos;s async/await functions. On
-          the front end, I used HTML and CSS to design a simple yet engaging
+          manage the flow of data using JavaScript&apos;s async/await functions.
+          On the front end, I used HTML and CSS to design a simple yet engaging
           interface that would display the data in an easy-to-read format. The
           challenge here was ensuring that the interface looked good across
           different devices—so I implemented a responsive design that adapts
-          whether you&apos;re using a desktop or mobile. I also worked with real-time
-          data updates, meaning the app pulls and displays live information
-          whenever the user inputs a new city or refreshes the page.
+          whether you&apos;re using a desktop or mobile. I also worked with
+          real-time data updates, meaning the app pulls and displays live
+          information whenever the user inputs a new city or refreshes the page.
         </p>{" "}
       </div>
     ),
